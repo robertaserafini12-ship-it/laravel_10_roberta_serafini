@@ -21,7 +21,7 @@
                     </div>
                 @endif
 
-                <form action="{{ route('books.send') }}" method="POST">
+                <form action="{{ route('books.store') }}" method="POST">
                     @csrf
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Aggiungi Titolo</label>
